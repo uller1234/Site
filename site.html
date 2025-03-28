@@ -26,7 +26,7 @@
     <section class="hero">
         <h1>Soluções de Pagamento para Empresas Modernas</h1>
         <p>Uma plataforma completa para pagamentos online.</p>
-        <button class="btn-primary">Saiba mais</button>
+        <button class="btn-primary" onclick="window.location.href='#features'">Saiba mais</button>
     </section>
 
     <!-- Features -->
@@ -77,12 +77,66 @@
     <section id="docs">
         <h2>Documentação</h2>
         <p>Acesse nossa API e guias de integração.</p>
-        <button class="btn-primary">Acessar Documentação</button>
+        <button class="btn-primary" onclick="window.location.href='https://documentacao.exemplo.com'">Acessar Documentação</button>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Stripe Clone - Todos os direitos reservados.</p>
-    </footer>
+   <!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Stripe Clone. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="termos_de_uso.html">Termos de Uso</a></li>
+                <li><a href="politica_privacidade.html">Política de Privacidade</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<style>
+    footer {
+        background: #333;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    footer p {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #5a67d8;
+    }
+</style>
+
 </body>
 </html>
